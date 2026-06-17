@@ -10,6 +10,7 @@ void sort(int arr[], int size)
     {
         for(int j = 0; j < size - 1 -i;j++)
 	{
+		//阿亮修改排序算法
 	    tmp = arr[j];
 	    arr[j] = arr[j + 1];
 	    arr[j+1] = tmp;
