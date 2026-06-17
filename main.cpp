@@ -2,21 +2,14 @@
 
 using namespace std;
 
+void sort(int arr[], int left, int right)
+{
+}
+
 //添加注释
 void sort(int arr[], int size)
 {
-    int tmp = 0;
-    for(int i = 0;i < size - 1; i++)
-    {
-        for(int j = 0; j < size - 1 -i;j++)
-	{
-		//小张修改排序算法
-		//阿亮修改排序算法
-	    tmp = arr[j];
-	    arr[j] = arr[j + 1];
-	    arr[j+1] = tmp;
-	}
-    }
+    sort(arr,0,size);
 }
 
 int main()
